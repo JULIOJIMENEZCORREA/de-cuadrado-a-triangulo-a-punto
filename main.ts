@@ -9,16 +9,16 @@ basic.forever(function () {
         `)
     basic.showLeds(`
         . . # # #
-        . . . # #
+        . # . . #
         # . . . #
-        # # . . #
+        # . . . #
         # # # # #
         `)
     basic.showLeds(`
         . . . # #
-        . . . # #
-        . . . . #
-        # # . . #
+        . . # . #
+        . # . . #
+        # . . . #
         # # # # #
         `)
     basic.showLeds(`
@@ -29,31 +29,17 @@ basic.forever(function () {
         # # # # #
         `)
     basic.showLeds(`
-        . . . . #
-        . . . # #
-        . . . . #
-        . # . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . #
-        . . . . #
-        . . . . #
-        . . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
         . . . . .
         . . . . #
-        . . . . #
-        . . . . #
+        . . . # #
+        . . # . #
         . # # # #
         `)
     basic.showLeds(`
         . . . . .
         . . . . .
         . . . . #
-        . . . . #
+        . . . # #
         . . # # #
         `)
     basic.showLeds(`
@@ -70,6 +56,28 @@ basic.forever(function () {
         . . . . .
         . . . . #
         `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # . # . #
+        . . . . .
+        # . # . #
+        . . . . .
+        # . # . #
+        `)
+    basic.showLeds(`
+        # # # . #
+        # . . . #
+        # # # . #
+        . . # . #
+        # # # . #
+        `)
+    basic.pause(1000)
     basic.clearScreen()
     basic.pause(1000)
 })
